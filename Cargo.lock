@@ -4471,7 +4471,6 @@ dependencies = [
  "pallet-nicks",
  "pallet-node-authorization",
  "pallet-sudo",
- "pallet-template",
  "pallet-timestamp",
  "pallet-transaction-payment",
  "pallet-transaction-payment-rpc-runtime-api",
@@ -4490,6 +4489,7 @@ dependencies = [
  "sp-std",
  "sp-transaction-pool",
  "sp-version",
+ "substrate-bootcamp-pallet",
  "substrate-wasm-builder",
 ]
 
@@ -8269,6 +8269,18 @@ dependencies = [
  "schnorrkel",
  "sha2 0.9.9",
  "zeroize",
+]
+
+[[package]]
+name = "substrate-bootcamp-pallet"
+version = "1.0.0"
+source = "git+https://github.com/zakharov-dy/substrate-bootcamp-pallet?branch=main#4ae7523592ae6fc15763110e458709237d092744"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
 ]
 
 [[package]]
